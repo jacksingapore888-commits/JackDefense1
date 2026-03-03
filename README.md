@@ -1,11 +1,34 @@
-<div align="center">
+# jack Nova Defense
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A classic Missile Command style tower defense game built with React, Vite, and Tailwind CSS.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Multiple Boss Stages**: Face off against the Alien Mothership, Void Destroyer, and Galactic Harbinger.
+- **Diverse Enemy Types**: From stealth missiles to nuclear warheads.
+- **Special Abilities**: Charge up your turrets to unleash devastating special attacks.
+- **Responsive Design**: Playable on desktop and mobile browsers.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Deployment to Vercel
 
-</div>
+1. **Push to GitHub**: Create a new repository on GitHub and push this code.
+2. **Connect to Vercel**:
+   - Go to [Vercel](https://vercel.com).
+   - Click "Add New" -> "Project".
+   - Import your GitHub repository.
+3. **Configure Environment Variables**:
+   - If you use any specific API keys (like Gemini), add them in the Vercel project settings under "Environment Variables".
+4. **Deploy**: Vercel will automatically detect the Vite configuration and deploy your app.
+
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
